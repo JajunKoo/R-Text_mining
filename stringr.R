@@ -3,6 +3,7 @@
 # Modified date: 2019-12-07
 # This code aims to learn the 'stringr' package.
 # Referenced from https://cran.r-project.org/web/packages/stringr/stringr.pdf
+
 library(stringr)  # Simple, Consistent Wrappers for Common String Operations
 
 # Join multiple strings into a single string. (=paste, paste0)
