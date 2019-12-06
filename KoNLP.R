@@ -2,7 +2,7 @@
 # Created date: 2019-12-05
 # Modified date: 2019-12-07
 # This code aims to learn the 'KoNLP' package.
-# Referenced from http://https://cran.r-project.org/web/packages/KoNLP/vignettes/KoNLP-API.html
+# Referenced from https://cran.r-project.org/web/packages/KoNLP/vignettes/KoNLP-API.html
 
 # load packages
 library(KoNLP)  # Korean NLP Package
