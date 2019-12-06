@@ -6,11 +6,6 @@
 
 # load packages
 library(KoNLP)
-library(stringr)
-library(dplyr)
-library(wordcloud)
-library(RColorBrewer)
-library(ggplot2)
 
 # Use dictionary
 useNIADic()     # use Insighter and Woorimalsam dictionary
