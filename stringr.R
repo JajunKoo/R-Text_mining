@@ -1,6 +1,6 @@
 # Writer: JajunKoo
 # Created date: 2019-12-07
-# Modified date: 2019-12-07
+# Modified date: 2019-12-08
 # This code aims to learn the 'stringr' package.
 # Referenced from https://cran.r-project.org/web/packages/stringr/stringr.pdf
 
@@ -95,3 +95,11 @@ str_subset(fruit, "^p", negate = TRUE)
 str_detect(c("a", NA, "b"), ".")
 str_subset(c("a", NA, "b"), ".")
 str_which(c("a", NA, "b"), ".")
+
+# Split up a string into pieces.
+fruits <- c(
+  "apples and oranges and pears and bananas",
+  "pineapples and mangos and guavas"
+)
+str_split(fruits, " and ")
+str_split(fruits, " and ", simplify = TRUE)
